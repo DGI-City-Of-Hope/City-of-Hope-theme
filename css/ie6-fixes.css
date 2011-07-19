@@ -1,0 +1,80 @@
+
+/* Alpha transparency png fix */
+/* To use: uncomment & change path to match your Fusion Core location*/
+/*
+div.pngfix,
+#logo img {
+  behavior: url(/sites/all/themes/fusion/fusion_core/js/iepngfix.htc);
+}
+*/
+
+/* fix for mini panels (blocks) */
+
+body #page .block-panels_mini .inner
+{
+    margin-left: 0px;
+    margin-right: 0px;
+    float: left;
+}
+body #page .block-panels_mini .inside
+{
+    margin-left: 0px;
+    margin-right: 0px;
+/*    float: left;*/
+}
+body #page .block-panels_mini .inner .inner
+{
+/*    margin-left: 15px;
+    margin-right: 15px;*/
+    float: left;
+    position: relative;
+    padding: 0px 15px;
+    margin: 0px 0px;
+}
+
+/*body .block-panels_mini .inner .inner
+{
+    margin-left: 0px;
+    margin-right: 0px;
+    float: left;
+}
+body .block-panels_mini .inside
+{
+    margin: 0px 0px 0px 0px;
+    float: left;
+}
+.panel-3col .panel-col-first .inside {
+    margin: 0px 0px 0px 0px;
+}
+.panel-3col .panel-col-last .inside {
+    margin: 0px 0px 0px 0px;
+}*/
+
+
+
+#slogan
+{
+    width: 600px;
+}
+#site-name-wrapper
+{
+    width: 600px;
+}
+
+#main,
+#postscript-bottom,
+#bottom,
+#footer
+{
+    width: 975px;
+}
+
+.node-type-panel #header-group
+{
+    width: 970px;
+}
+
+.grid16-10
+{
+    width: 598px;
+}

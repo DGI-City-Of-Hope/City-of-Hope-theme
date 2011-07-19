@@ -1,0 +1,19 @@
+
+/* fix for mini panels (blocks) */
+body .block-panels_mini .inner
+{
+/*    margin-left: 0px;
+    margin-right: 0px;*/
+    float: left;
+}
+/*body .block-panels_mini .inner .inner
+{
+    margin-left: 0px;
+    margin-right: 0px;
+}*/
+body .block-panels_mini .inside
+{
+/*    margin-left: 0px;
+    margin-right: 0px;*/
+    float: left;
+}
