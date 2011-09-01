@@ -128,7 +128,8 @@ ul.pager li.pager-current
 #site-name a:link,
 #site-name a:visited
 {
-    color: #acc6e7;
+    /* color: #acc6e7; */
+    color: #fff;
 }
 #site-name a,
 #site-name a:focus,
@@ -273,7 +274,7 @@ ul.sf-menu li li li.sfHover ul
 #slogan-alt
 {
     float: right;
-    margin: 25px 60px 0px 0px;
+    margin: 15px 60px 0px 0px;
     width: 100%;
     text-align: right;
     color: #acc6e7;
@@ -282,7 +283,7 @@ ul.sf-menu li li li.sfHover ul
 #site-name
 {
     float: left;
-    margin: 0px 0px 0px 5px;
+    margin: 20px 0px 0px 35px;
 }
 
 

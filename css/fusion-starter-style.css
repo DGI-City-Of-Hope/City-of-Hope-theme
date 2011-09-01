@@ -22,8 +22,8 @@ a:active {
 /* Specific Typography
 -------------------------------------------------------------- */
 #site-name {
-  font-size: 300%;
-  line-height: 150%;
+  font-size: 28px;
+  line-height: 28px;
 }
 
 .footer-message {
