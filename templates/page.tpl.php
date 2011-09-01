@@ -47,8 +47,11 @@
                   <a href="<?php print check_url($front_page); ?>" title="<?php print t('Home'); ?>"><img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" /></a>
                 </div>
                 <?php endif; ?>
-                <?php if ($site_name || $site_slogan): ?>
+                <?php if ($site_name || $site_slogan || $slogan_alt): ?>
                 <div id="site-name-wrapper" class="clearfix">
+                  <?php if ($slogan_alt): ?>
+                  <span id="slogan-alt"><?php print $slogan_alt; ?></span>
+                  <?php endif; ?>
                   <?php if ($site_slogan): ?>
                   <span id="slogan"><?php print $site_slogan; ?></span>
                   <?php endif; ?>
@@ -140,9 +143,21 @@
       <!-- bottom row: width = grid_width -->
       <?php print theme('grid_row', $bottom, 'bottom', 'full-width', $grid_width); ?>
       
-      <!-- footer row: width = grid_width -->
-      <?php print theme('grid_row', $footer, 'footer', 'full-width', $grid_width); ?>
+      <div id="footer-wrapper">
+        <div id="footer-wrapper-inner">
+      
+        <!-- footer row: width = grid_width -->
+        <?php if ($footer): ?>
+          <div id="footer">
+            <?php print $footer; ?>
+          </div>
+        <?php endif ?>
 
+		<?php print $footer_text; ?>
+
+        </div>
+      </div>
+      
       <!-- footer-message row: width = grid_width -->
       <div id="footer-message-wrapper" class="footer-message-wrapper full-width">
         <div id="footer-message" class="footer-message row <?php print $grid_width; ?>">

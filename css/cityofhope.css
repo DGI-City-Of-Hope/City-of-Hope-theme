@@ -1,5 +1,7 @@
 /* General settings */
 
+/* Blue HEX: #296DC0 */
+
 body
 {
   background-color: #fff;
@@ -109,6 +111,8 @@ ul.pager li.pager-current
     color: #666;
     padding-bottom: 10px;
 }
+
+
 
 /* Header */
 
@@ -266,6 +270,15 @@ ul.sf-menu li li li.sfHover ul
     color: #acc6e7;
     font-size: 10px;
 }
+#slogan-alt
+{
+    float: right;
+    margin: 25px 60px 0px 0px;
+    width: 100%;
+    text-align: right;
+    color: #acc6e7;
+    font-size: 10px;
+}
 #site-name
 {
     float: left;
@@ -339,14 +352,97 @@ ul.sf-menu li li li.sfHover ul
 
 /* Footer */
 
-#footer
+
+#footer-wrapper
 {
-    background-color: #F2EEDB;
-    border: 1px solid #D8CCB7;
-/*    border-bottom: none;*/
-    
-    color: #7C7369;
+  margin: 0px auto;
+  width: 960px;
 }
+
+#footer-wrapper-inner
+{
+  float: left;
+  background-color: #F2EEDB;
+  border: 1px solid #D8CCB7;
+  padding-bottom: 30px;
+  
+  color: #7C7369;
+}
+
+
+
+
+
+.footer-bottom
+{
+  margin: 15px;
+  float: left;
+  width: 100%;
+}
+.footer-bottom .logo a
+{
+  float: left;
+  width: 42px;
+  height: 42px;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+.footer-bottom .content
+{
+  float: right;
+  width: 270px;
+  font-size: 10px;
+  line-height: 15px;
+}
+.footer-bottom .footer-left
+{
+  float: left;
+  width: 150px;
+  margin-right: 50px;
+}
+.footer-bottom .footer-right
+{
+  float: left;
+  width: 730px;
+}
+.footer-bottom .footer-right-top,
+.footer-bottom .footer-right-bottom
+{
+  float: left;
+  width: 730px;
+}
+.footer-bottom .footer-right-top
+{
+  margin-bottom: 30px;
+}
+.footer-bottom .col-left
+{
+  float: left;
+  margin-right: 25px;
+  width: 325px;
+}
+.footer-bottom .col-right
+{
+  float: left;
+  width: 325px;
+}
+
+.footer-bottom a.nci
+{
+  background-image: url('../images/icon_nci.gif');
+}
+.footer-bottom a.nccn
+{
+  background-image: url('../images/icon_nccn.gif');
+}
+.footer-bottom a.hon
+{
+  background-image: url('../images/icon_hon.gif');
+}
+
+
+
+
 
 
 
@@ -355,6 +451,7 @@ ul.sf-menu li li li.sfHover ul
     text-align: center;
     margin-top: 5px;
 }
+
 
 
 
