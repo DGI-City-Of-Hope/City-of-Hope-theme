@@ -40,6 +40,8 @@ A site slogan and footer message can be set in on the site information page.
 
 
 
+- User login block: put this in the Top Header region and select "Horizontal"
+ under Skinr's User login block styles.
 
 - To add a block with user name, link to account and log out link:
 
