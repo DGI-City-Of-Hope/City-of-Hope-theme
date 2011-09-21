@@ -127,6 +127,7 @@ ul.pager li.pager-current
 #block-user-0
 {
   float: right;
+  padding-bottom: 5px;
 }
 #block-user-0 .inner
 {
