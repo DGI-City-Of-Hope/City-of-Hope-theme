@@ -37,3 +37,20 @@ For panel panes:
 - panes have the same cityofhope skinr settings as blocks. (top border)
 
 A site slogan and footer message can be set in on the site information page.
+
+
+
+
+- To add a block with user name, link to account and log out link:
+
+Enable php snippets and add a new block with the following php snippet:
+
+<?php global $user; ?>
+<?php if ($user->uid): ?>
+<span class="login_text"><?php print t('Welcome'); ?>, </span> <?php print ($user->name); ?> <br>
+<?php print l(t("Your Account"),'user/'.$user->uid); ?> |
+<?php print l("Log out","logout"); ?>
+<?php endif; ?>
+
+3 units wide should be fine.
+Put the block in the same region as the user login block.

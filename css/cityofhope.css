@@ -114,6 +114,46 @@ ul.pager li.pager-current
 
 
 
+
+
+
+
+
+
+/* Header Top */
+
+
+
+#block-user-0
+{
+  float: right;
+}
+#block-user-0 .inner
+{
+  float: right;
+}
+#block-block-1
+{
+  float: right;
+}
+#block-block-1 .inner
+{
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Header */
 
 #header-group

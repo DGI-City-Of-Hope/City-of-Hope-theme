@@ -104,3 +104,4 @@ function cityofhope_footer_text($footer_text = NULL) {
   return $output;	
 	
 }
+
