@@ -2,6 +2,20 @@
 
 /* Blue HEX: #296DC0 */
 
+/* the content modeler modules add box-sizing: border-box; to the page. It pushes the
+content 2px wider. so the main content won't fit and breaks the layout. It's not an
+option to remove this box-sizing setting, so whenever the x-border-box class is set in
+the html element, make the main group 2px smaller. */
+
+/* width: 778px; I can take 2px off, but using the margin might be better, because you never know if the main content will always be 780px wide; */
+
+/* it's a bit of a hack: */
+
+.x-border-box #main-group
+{
+    margin: 0px -2px 0px 0px;
+}
+
 body
 {
   background-color: #fff;
@@ -298,10 +312,15 @@ ul.sf-menu li li li.sfHover ul
     float: left;
     margin: 12px 0 0 10px;
 }
+#header-site-info-inner
+{
+  position: relative;
+}
 #site-name-wrapper
 {
-    float: right;
-    width: 755px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
 }
 #slogan
 {

@@ -39,7 +39,7 @@
         <div id="header-group" class="header-group row <?php print $grid_width; ?>">
           <div id="header-group-inner" class="header-group-inner inner clearfix">
             
-            <?php if ($logo || $site_name || $site_slogan): ?>
+            <?php if ($logo || $site_slogan): ?>
             <div id="header-site-info" class="header-site-info block">
               <div id="header-site-info-inner" class="header-site-info-inner inner">
                 <?php if ($logo): ?>
@@ -54,9 +54,6 @@
                   <?php endif; ?>
                   <?php if ($site_slogan): ?>
                   <span id="slogan"><?php print $site_slogan; ?></span>
-                  <?php endif; ?>
-                  <?php if ($site_name): ?>
-                  <span id="site-name"><a href="<?php print check_url($front_page); ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a></span>
                   <?php endif; ?>
                 </div><!-- /site-name-wrapper -->
                 <?php endif; ?>
