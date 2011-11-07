@@ -6,7 +6,7 @@ core = 6.x
 engine = phptemplate
 
 logo = images/authors-at-city-of-hope-banner_blue.png
-screenshot = logo.png
+screenshot = images/logo-small.png
 
 stylesheets[all][] = css/fusion-starter-style.css
 stylesheets[all][] = css/grid16-960.css
