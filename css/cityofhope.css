@@ -644,3 +644,11 @@ ul.sf-menu li li li.sfHover ul
 {
     margin: 20px 15px;
 }
+
+
+/* Remove/hide Drupal page title on repository/fedora pages */
+
+.page-fedora #content-region h1.title
+{
+  display: none;
+} 
