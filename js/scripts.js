@@ -3,6 +3,7 @@ if(IE6){
 
 	$(function(){
 		
+		// overlay
 		$("<div>")
 			.css({
 				'position': 'absolute',
@@ -15,8 +16,9 @@ if(IE6){
 				zIndex: 5000
 			})
 			.appendTo("body");
-			
-		$("<div><p>You are using Internet Explorer 6.x, which is not supported by the Authors@City of Hope publications repository.<br /><br />If you are a City of Hope user please click <a href='file://///tech_1/apps/IE/IE7/setup.bat' target='_blank'>here</a> to upgrade to Internet Explorer 7<br /><br />If you are a Non-City of Hope user please click <a href='http://windows.microsoft.com/en-US/internet-explorer/products/ie/home' target='_blank'>here</a> to upgrade.</p>")
+		
+		// popup
+		$("<div><p>You are using Internet Explorer 6.x, which is not supported by the Authors@City of Hope publications repository.<br /><br />If you are a City of Hope user please click <a href='file://///tech_1/apps/IE/IE7/setup.bat' target='_blank'>here</a> to upgrade to Internet Explorer 7<br /><br />If you are a Non-City of Hope user please click <a href='http://windows.microsoft.com/en-US/internet-explorer/products/ie/home' target='_blank'>here</a> to upgrade.<br /><br />Reboot your computer after upgrading Internet Explorer.</p>")
 			.css({
 				backgroundColor: 'white',
 				'top': '50%',
