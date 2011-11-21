@@ -58,8 +58,7 @@ h1
 
 }
 h1,
-h2,
-h3
+h2
 {
     color: #7C7369;
     font-family: Verdana, Arial;
@@ -70,14 +69,29 @@ h3
     margin: 0;
     padding: 0;
 }
+
+h3
+{
+    color: #7C7369;
+    font-family: Verdana, Arial;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: -1px;
+    line-height: 114%;
+    margin: 0;
+    padding: 0;
+}
+
 h4
 {
     
 }
+
 h5
 {
     
 }
+
 h6
 {
 
@@ -651,4 +665,32 @@ ul.sf-menu li li li.sfHover ul
 .page-fedora #content-region h1.title
 {
   display: none;
+} 
+
+
+/* Facet toggle link */
+
+.islandora_solr_search_facet
+{
+  float: left;
+  width: 100%;
+}
+
+.islandora_solr_search_facet h3
+{
+  width: 100%;
+  margin: 5px 0px 5px 0px;
+}
+
+.islandora_solr_search_facet .item-list
+{
+  float: left;
+  width: 100%;
+}
+
+a.shown-toggle
+{
+  float: right;
+  font-size: 90%;
+  line-height: 1.3em;
 } 
