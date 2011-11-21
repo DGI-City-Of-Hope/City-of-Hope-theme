@@ -687,6 +687,15 @@ ul.sf-menu li li li.sfHover ul
   float: left;
   width: 100%;
 }
+.islandora_solr_search_facet .item-list ul
+{
+  margin-left: 20px;
+}
+.islandora_solr_search_facet .item-list li
+{
+  float: left;
+  width: 130px;
+}
 
 a.shown-toggle
 {
