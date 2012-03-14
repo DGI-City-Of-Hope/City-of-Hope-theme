@@ -238,6 +238,7 @@ ul.sf-menu li.active-trail ul a,
 ul.sf-menu ul li a:hover,
 ul.sf-menu ul li a
 {
+    color: white;
     background-color: #deeaf7; /* light blue */
 }
 .sf-menu li:hover ul,
@@ -260,7 +261,7 @@ ul.sf-menu ul li a:hover,
 ul.sf-menu ul li a.active,
 ul.sf-menu ul li a.active:visited
 {
-    background-color: #96B7D4; /* light blue */
+    background-color: #7898d3; /* light blue */
     background-image: none;
     border-right: 0px;
     text-decoration: none;
@@ -289,7 +290,49 @@ ul.sf-menu li li li.sfHover ul
 
 
 
+#block-menu-primary-links
+{
 
+}
+
+#block-menu-primary-links ul
+{
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+
+#block-menu-primary-links ul li
+{
+  margin-right: 15px;
+  display: inline-block;
+  list-style: none;
+  list-style-image: none;
+}
+
+#block-menu-primary-links ul li.last
+{
+  margin-right: 0px;
+}
+
+#block-menu-primary-links ul li a
+{
+  font-size: 18px;
+}
+
+#block-menu-primary-links ul li a:active,
+#block-menu-primary-links ul li a.active,
+#block-menu-primary-links ul li a.active:hover
+{
+  color: #666;
+/*   color: #96b6d3; /* light blue */ 
+}
+
+#block-menu-primary-links ul li a:hover
+{
+  color: #5e8fcb;
+/*   color: #96b6d3; /* light blue */ 
+  text-decoration: none;
+}
 
 
 
@@ -703,3 +746,14 @@ a.shown-toggle
   font-size: 90%;
   line-height: 1.3em;
 } 
+
+
+
+
+/* Log in */
+
+
+#user-login-form .item-list
+{
+  display: none;
+}

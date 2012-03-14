@@ -56,3 +56,6 @@ Enable php snippets and add a new block with the following php snippet:
 
 3 units wide should be fine.
 Put the block in the same region as the user login block.
+
+Navigation: Use the primary navigation as your primary menu. Move the "primary
+menu block" into the "Preface Bottom" region. 
