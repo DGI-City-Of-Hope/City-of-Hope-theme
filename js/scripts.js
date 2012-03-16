@@ -37,3 +37,18 @@ if(IE6){
                         
 	});		
 }
+
+
+
+// creates a first sidebar with equal height as the main-group column
+Drupal.behaviors.equalColumns = function(context) { 
+  
+  //#sidebar-first-inner
+  //#main-group
+  
+  var sidebarFirstHeight = $('#sidebar-first-inner').height();
+  var mainGroupHeight = $('#main-group').height();
+  if (mainGroupHeight > sidebarFirstHeight) {
+    $('#sidebar-first-inner').height(mainGroupHeight);
+  }
+}
