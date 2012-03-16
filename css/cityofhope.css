@@ -61,9 +61,9 @@ h1,
 h2
 {
     color: #7C7369;
-    font-family: Verdana, Arial;
+    font-family: Helvetica, Arial, Verdana;
     font-size: 21px;
-    font-weight: normal;
+    font-weight: 200;
     letter-spacing: -1px;
     line-height: 114%;
     margin: 0;
@@ -161,14 +161,7 @@ ul.pager li.pager-current
 {
   float: right;
 }
-#block-block-1
-{
-  float: right;
-}
-#block-block-1 .inner
-{
-  float: right;
-}
+
 
 
 
@@ -406,12 +399,18 @@ ul.sf-menu li li li.sfHover ul
 
 
 
+
+
+
 /* Main */
+
+
+
 
 #main
 {
-    border-right: 1px solid #D8CCB7;
-    border-left: 1px solid #D8CCB7;
+  border-right: 1px solid #D8CCB7;
+  border-left: 1px solid #D8CCB7;
 }
 
 #sidebar-first,
@@ -423,36 +422,122 @@ ul.sf-menu li li li.sfHover ul
 .breadcrumbs
 {
 /*    padding: 0px 0 0 180px;*/
-    padding: 0 0 0 20px;
-    width: 780px;
-    font-size: 12px;
+  padding: 0 0 0 20px;
+  width: 780px;
+  font-size: 12px;
 }
 .node-type-panel .breadcrumbs
 {
-    padding: 0 0 0 20px;
+  padding: 0 0 0 20px;
 }
 .breadcrumbs a,
 .breadcrumbs a:active,
 .breadcrumbs a:visited
 {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 #main-inner
 {
-    padding-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 40px;
 }
 .front #main-inner
 {
-    padding-top: 20px;
+  padding-top: 20px;
+
 }
 
+
+
+
+
 /* postscript-bottom */
+
+
+
+
 
 #postscript-bottom
 {
     border-right: 1px solid #D8CCB7;
     border-left: 1px solid #D8CCB7;
 }
+
+
+
+
+
+
+
+/* Front */
+
+
+
+#content-bottom .block
+{
+
+}
+
+#block-views-featured_researcher-block_1
+{
+  float: left;
+  width: 360px;
+  margin-right: 10px;
+}
+
+
+#block-views-featured_researcher-block_1 .views-field-field-description-value a.researcher-image
+{
+  float: left;
+  margin: 0px 20px 10px 0px;
+}
+
+#block-views-featured_researcher-block_1 .views-field-field-publications-url-url,
+#block-views-featured_researcher-block_1 .views-field-edit-node
+{
+  float: left;
+  width: auto;
+  margin-right: 15px;
+
+}
+
+
+
+
+#block-block-1
+{
+  float: left;
+  width: 360px;
+  margin-left: 10px;
+}
+
+#block-block-1 .inner
+{
+  float: left;
+}
+
+
+
+.front #block-islandora_solr_search-simple
+{
+  width: 100%;
+}
+
+.front #block-islandora_solr_search-simple #edit-islandora-simple-search-query-wrapper
+{
+  float: left;
+  width: 600px;
+}
+
+.front #block-islandora_solr_search-simple .form-submit
+{
+  float: left;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
+
+
 
 
 
@@ -628,7 +713,7 @@ ul.sf-menu li li li.sfHover ul
 #sidebar-first-inner
 {
     border-right: 1px solid #D8CCB7;
-    margin-bottom: 10px;
+/*     margin-bottom: 10px; */
 }
 #sidebar-last-inner
 {
@@ -746,6 +831,12 @@ a.shown-toggle
   font-size: 90%;
   line-height: 1.3em;
 } 
+
+
+
+
+
+
 
 
 
