@@ -486,7 +486,8 @@ ul.sf-menu li li li.sfHover ul
 }
 
 
-#block-views-featured_researcher-block_1 .views-field-field-description-value a.researcher-image
+#block-views-featured_researcher-block_1 .views-field-field-description-value a.researcher-image,
+#block-views-featured_researcher-block_1 .views-field-field-description-value img
 {
   float: left;
   margin: 0px 20px 10px 0px;
