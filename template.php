@@ -16,7 +16,14 @@ function cityofhope_preprocess_page(&$variables) {
 	// add footer text & images
 	$variables['footer_text'] = theme('footer_text', _cityofhope_footer_text());
 
-	
+  // unset the fist sidebar then on the form builder page  
+  if (arg(0) == 'admin' AND arg(1) == 'content' AND arg(2) == 'xml' AND arg(3) == 'form' AND arg(5) == 'edit') {
+    // unset sidebar_first
+    unset($variables['sidebar_first']);
+    // add class wo we can assign proper width again (see cityofhope.css).
+    $variables['body_classes'] .= ' xml-form-builder'; 
+  }
+    
 }
 
 

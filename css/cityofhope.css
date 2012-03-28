@@ -296,7 +296,7 @@ ul.sf-menu li li li.sfHover ul
 
 #block-menu-primary-links ul li
 {
-  margin-right: 15px;
+  margin-right: 50px;
   display: inline-block;
   list-style: none;
   list-style-image: none;
@@ -837,8 +837,16 @@ a.shown-toggle
 
 
 
+/* xml form builder */
 
-
+.xml-form-builder #main-group
+{
+  width: 940px;
+}
+.xml-form-builder #content-group-inner
+{
+  width: 930px;
+}
 
 
 
