@@ -537,6 +537,24 @@ ul.sf-menu li li li.sfHover ul
   margin-bottom: 1em;
 }
 
+.front #block-islandora_solr_search-simple
+{
+  width: 100%;
+}
+
+.front #block-islandora_solr_search-simple #edit-islandora-simple-search-query-wrapper
+{
+  float: left;
+  width: 600px;
+}
+
+.front #block-islandora_solr_search-simple .form-submit
+{
+  float: left;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
 
 
 
