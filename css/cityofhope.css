@@ -519,18 +519,18 @@ ul.sf-menu li li li.sfHover ul
 
 
 
-.front #block-islandora_solr_search-simple
+.front #block-islandora_solr_search-publication_simple
 {
   width: 100%;
 }
 
-.front #block-islandora_solr_search-simple #edit-islandora-simple-search-query-wrapper
+.front #block-islandora_solr_search-publication_simple #edit-islandora-simple-search-query-wrapper
 {
   float: left;
   width: 600px;
 }
 
-.front #block-islandora_solr_search-simple .form-submit
+.front #block-islandora_solr_search-publication_simple .form-submit
 {
   float: left;
   margin-top: 1.5em;
