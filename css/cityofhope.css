@@ -290,12 +290,15 @@ ul.sf-menu li li li.sfHover ul
 
 #block-menu-primary-links ul
 {
+  float: left;
+  width: 100%;
   margin-bottom: 10px;
   margin-left: 5px;
 }
 
 #block-menu-primary-links ul li
 {
+  float: left;
   margin-right: 50px;
   display: inline-block;
   list-style: none;
