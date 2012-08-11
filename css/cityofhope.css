@@ -889,7 +889,8 @@ a.shown-toggle
 
 .view-featured-researcher .views_slideshow_singleframe_controls
 {
-  display: block;
+  display: table;
+  display: inline-block;
 }
 
 .view-featured-researcher .views_slideshow_singleframe_controls a
@@ -957,7 +958,7 @@ a.shown-toggle
 
 .view-featured-researcher .views-slideshow-controls-bottom
 {
-  position: relative;
+  text-align: center;
   margin-top: 5px;
 }
 
