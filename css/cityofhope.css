@@ -898,11 +898,15 @@ a.shown-toggle
 
 }
 
-.view-featured-researcher a.views_slideshow_singleframe_previous
+.view-featured-researcher a.views_slideshow_singleframe_previous,
+.view-featured-researcher a.views_slideshow_singleframe_next,
+.view-featured-researcher a.views_slideshow_singleframe_play,
+.view-featured-researcher a.views_slideshow_singleframe_pause
 {
   float: left;
   width: 20px;
   height: 20px;
+  margin-left: 5px;
   background: url('../images/slider-arrows.png') 0 0 no-repeat transparent;
   
   text-indent: -9999px;
@@ -911,22 +915,14 @@ a.shown-toggle
   background-position: 0 0;
 }
 
-.view-featured-researcher a.views_slideshow_singleframe_next
-{
-  float: left;
-  width: 20px;
-  height: 20px;
-  background: url('../images/slider-arrows.png') 0 0 no-repeat transparent;
-  
-  text-indent: -9999px;
-  overflow: hidden;
-  
-  background-position: -20px 0;
-}
-
 .view-featured-researcher a.views_slideshow_singleframe_previous:hover
 {
   background-position: 0 -20px;
+}
+
+.view-featured-researcher a.views_slideshow_singleframe_next
+{
+  background-position: -20px 0;
 }
 
 .view-featured-researcher a.views_slideshow_singleframe_next:hover
@@ -939,15 +935,11 @@ a.shown-toggle
   background-position: -40px 0;
 }
 
-.view-featured-researcher a.views_slideshow_singleframe_pause:hover
+.view-featured-researcher a.views_slideshow_singleframe_pause:hover,
+.view-featured-researcher a.views_slideshow_singleframe_play:hover,
+.view-featured-researcher a.views_slideshow_singleframe_play
 {
   background-position: -40px -20px;
-}
-
-.view-featured-researcher a.views_slideshow_singleframe_play,
-.view-featured-researcher a.views_slideshow_singleframe_pause
-{
-  display: none;
 }
 
 .view-featured-researcher .views_slideshow_singleframe_pager
@@ -975,3 +967,21 @@ a.shown-toggle
   text-decoration: underline;
 }
 
+
+.views-slideshow-controls-top
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#block-views-featured_researcher-block_1 .fusion-edit
+{
+  top: 25px;
+}
+
+#block-views-featured_researcher-block_1 .views-field-title h2
+{
+  font-size: 17px;
+  margin: 3px 0;
+}

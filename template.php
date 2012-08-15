@@ -113,31 +113,4 @@ function cityofhope_footer_text($footer_text = NULL) {
 }
 
 
-function cityofhope_preprocess_views_slideshow_singleframe(&$vars) {
-  // unset pager_bottom as we include this in the controls function
-  unset($vars['pager_bottom']);
-}
 
-/**
- * The slideshow controls.
- *
- * @ingroup themeable
- */
-function cityofhope_views_slideshow_singleframe_controls($vss_id, $view, $options) {
-  $classes = array(
-    'views_slideshow_singleframe_controls',
-    'views_slideshow_controls',
-  );
-
-  $attributes['class'] = implode(' ', $classes);
-  $attributes['id'] = "views_slideshow_singleframe_controls_" . $vss_id;
-  $attributes = drupal_attributes($attributes);
-
-  $output = "<div$attributes>";
-  $output .= theme('views_slideshow_singleframe_control_previous', $vss_id, $view, $options);
-  // add pager
-  $output .= theme('views_slideshow_singleframe_pager', $vss_id, $view, $options);
-  $output .= theme('views_slideshow_singleframe_control_next', $vss_id, $view, $options);
-  $output .= "</div>\n";
-  return $output;
-}
